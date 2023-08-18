@@ -1,0 +1,137 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* Mobile & tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+
+    .btn__header--mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pagination {
+        margin-bottom: 50px;
+    }
+
+    .card {
+        margin-right: unset;
+    }
+
+    .modal {
+        border: 1px solid var(--dark);
+        position: absolute;
+        top: 46px;
+        right: 10px;
+        width: 169px;
+        border-radius: 0 0 6px 6px;
+        transition: all 0.5s ease-in;
+        z-index: 100;
+        background-color: var(--white);
+    }
+
+    .sort__option {
+        height: 40px;
+    }
+
+    .left--mobile {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: scroll;
+        display: none;
+    }
+
+    .left--mobile.open {
+        display: block;
+    }
+
+    .search-result__filter {
+        background-color: var(--white);
+        width: 342px;
+        padding-left: 15px;
+    }
+
+    .control__row-1 {
+        margin-top: 15px;
+    }
+
+    .delivery, .pickup {
+        width: 135px;
+        flex: unset;
+    }
+
+    .control__row-3 {
+        width: 170px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .wrapper-modal {
+        background-color: rgba(0, 0, 0, 0.4);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .arow-right {
+        position: absolute;
+        right: 51px;
+        top: 85px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+
+    .modal {
+        border: 1px solid var(--dark);
+        position: absolute;
+        top: 311px;
+        right: 106px;
+        width: 169px;
+        border-radius: 0 0 6px 6px;
+        transition: all 0.5s ease-in;
+        z-index: 100;
+        background-color: var(--white);
+        display: none;
+    }
+
+    .sort__options:hover .modal {
+        display: block;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .wrapper {
+        margin: 10px;
+    }
+    
+}
