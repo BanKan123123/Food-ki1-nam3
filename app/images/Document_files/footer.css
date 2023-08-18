@@ -1,0 +1,42 @@
+@import url('../styles/reset.css');
+@import url('../styles/base.css');
+@import url('../styles/variables.css');
+
+.footer {
+    background-color: var(--yellow-light);
+    padding: 100px;
+    width: 100%;
+}
+
+.footer-info {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.info-foodeats {
+    width: 30%;
+}
+
+.info-relates {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.info-relates h2 {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+
+.info-relates ul {
+    font-size: 16px;
+
+}
+
+.info-relates ul li {
+    padding: 10px 0;
+    
+}

@@ -1,0 +1,90 @@
+@import url('../styles/grid.css');
+@import url('../styles/reset.css');
+@import url('../styles/variables.css');
+@import url('../styles/base.css');
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 108px;
+    background: var(--yellow-light);
+    cursor: pointer;
+    display: block;
+}
+
+.header span {
+    font-weight: 600;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(50%);
+}
+
+.header-nav h1 {
+    font-weight: 800;
+}
+
+.header-nav div {
+    font-size: 22px;
+}
+
+.nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-menu li {
+    min-width: 100px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.nav-menu li:hover {
+    box-shadow: 3px 3px 40px rgba(131, 113, 31, 0.2);
+}
+
+.nav-menu li:active {
+    box-shadow: 3px 3px 40px #af910d7e;
+}
+
+.nav-menu li img {
+    position: relative;
+    top: 5px;
+}
+
+.nav-author {
+    cursor: pointer;
+}
+
+.nav-author button {
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+}
+
+.btn-signin {
+    border-radius: 4px;
+    color: var(--dark);
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 16p;
+    padding: 0 20px;
+}
+
+.btn-signin:hover {
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-signin:active {
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.4);
+
+}
