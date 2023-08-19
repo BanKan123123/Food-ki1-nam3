@@ -12,6 +12,7 @@
     background: var(--yellow-light);
     cursor: pointer;
     display: block;
+    z-index: 9999;
 }
 
 .header span {
