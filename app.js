@@ -1,3 +1,5 @@
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+
 export default function includeHTMLFile(url, element) {
     console.log(url, element);
     fetch(url)
