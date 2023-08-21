@@ -5,477 +5,407 @@
 
 .home-container {
     margin-top: 108px;
-    background-color: var(--yellow-light);
-    padding: 0px 70px;
-    padding-bottom: 40px;
+}
+
+.home-container {
+    margin-top: 108px;
 }
 
 .container-slide {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
     flex-wrap: wrap;
 }
 
+.container-slide img {
+    width: 30px;
+    height: 30px;
+}
+
 .texts {
-    width: 50%;
+    margin-bottom: 40px;
 }
 
 .texts h2 {
-    font-size: 18px;
-    color: var(--purple-primary);
+    font-size: 20px;
     font-weight: 600;
-    padding: 10px 0;
+    color: var(--purple-primary);
+    padding: 15px 0;
 }
 
 .texts h1 {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    width: 300px;
+    margin: 0;
     padding: 15px 0;
-    width: 50%;
-    font-weight: 600;
-}
-
-.texts img {
-    width: 35px;
 }
 
 .texts p {
-    width: 75%;
-    padding: 10px 0;
+    font-size: 20px;
+    padding: 15px 0;
+    margin: 0;
+    width: 520px;
+}
+
+.texts button {
+    width: 150px;
+    height: 40px;
+    line-height: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 0;
+    margin: 15px 0;
+}
+
+.texts .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0;
+}
+
+.texts input {
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 25px;
+    border-radius: 8px;
+    outline: 0;
+    border: 1px solid #8a8a8acc;
+}
+
+.texts input:focus {
+    border: 1px solid rgba(141, 124, 30, 0.911);
+}
+
+.location-input:focus input::placeholder {
+    color: #FFCF54;
+}
+
+.location-input:focus i {
+    color: #FFCF54
+}
+
+.texts .location-input {
+    position: relative;
+}
+
+.texts .location i {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    color: #4e4e4ebd;
 }
 
 .image {
     position: relative;
-    width: 50%;
 }
 
-.image::after {
-    content: 'FOOD DELIVERY';
-    display: block;
-    position: absolute;
-    top: 10%;
-    width: 100%;
-    transform: rotate(-30deg);
-    font-size: 25px;
-    font-weight: 800;
+.image .rectnagle2 {
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    flex-shrink: 0;
+    background: linear-gradient(181deg, #FFCF54 0%, #FFB700 98.96%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    border: solid 40px #29B067;
+    border-bottom: none;
 }
 
 .image img {
     position: absolute;
-    height: 100%;
-    border-radius: 5px;
+    width: 600px;
+    height: 450px;
+    flex-shrink: 0;
+    top: 10%;
+    z-index: 1;
     left: 0;
+}
+
+.image .image-title1 {
+    position: absolute;
+    transform: rotate(-18.786deg);
+    color: var(--dark, #191720);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px;
+    z-index: 1;
     top: 0;
 }
 
-.location {
-    position: relative;
-    padding: 10px 0;
-    display: flex;
-    gap: 14px;
-    margin-top: 15px;
-}
-
-.texts button {
-    width: 100px;
-    font-size: 14px;
-    height: 35px;
-    font-weight: 500;
-    margin-top: 20px;
-}
-
-.location button {
-    width: 100px;
-    font-size: 14px;
-    height: 35px;
-    font-weight: 500;
-    margin: 0;
-}
-
-.location-input {
-    position: relative;
-}
-
-.location-input input {
-    height: 35px;
-    padding-left: 20px;
-    border-radius: 10px;
-    background: rgba(204, 204, 204, 0.43);
-    outline: none;
-    border: none;
-}
-
-.location-input i {
+.image .image-title2 {
     position: absolute;
-    left: 7px;
-    top: 10px;
-    color: #949494;
-    font-size: 14px;
+    transform: rotate(-18.786deg);
+    color: var(--dark, #191720);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
 }
 
-.location-input input::placeholder {
-    color: #949494;
-    font-weight: 600;
+.image .image-star {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 
 .services {
-    padding: 100px;
+    text-align: center;
 }
 
 .services h1 {
-    color: #191720;
+    font-size: 35px;
+    font-weight: 800;
     text-align: center;
-    font-size: 34px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
+    padding: 15px 0;
 }
 
-.services p {
-    color: #575363;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.services .service {
+.service {
+    margin: 40px 0;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.services .service .card {
-    width: 321px;
-    height: 348px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #FFF;
-    margin: 15px;
-    padding: 15px;
+.service p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.service .card {
     text-align: center;
+    width: 370px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.111);
 }
 
-.services .service .card:hover {
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+.service .card:hover {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-.services .service .card:hover button {
+.service .card h1 {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 0;
+}
+
+.service .card p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.service .card button {
+    padding: 8px 0;
+    background-color: transparent;
+    font-weight: 700;
+    color: #333;
+}
+
+.service .card:hover.card button {
     color: var(--purple-primary);
 }
 
-.services .service .card img {
-    width: 100px;
-    height: 100px;
-    flex-shrink: 0;
-    margin-top: 15px;
+.service .card img {
+    height: 140px;
+    padding: 20px;
 }
 
-.services .service .card h3 {
-    color: var(--dark, #191720);
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 36px;
-}
 
-.services .service .card p {
-    color: #575363;
-    text-align: center;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    width: 100%;
-}
-
-.services .service .card button {
-    color: #191720;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-    background-color: transparent;
-    margin-top: 40px;
-}
-
-.about {
-    padding: 20px 135px;
-    position: relative;
-    background-color: var(--yellow-light);
-    margin-top: 80px;
-    padding-bottom: 135px;
-}
-
-.about .count-down {
-    border-radius: 12px;
-    background: #191720;
-    height: 202px;
-    flex-shrink: 0;
+.count-down {
+    background-color: #191720;
     color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    overflow: hidden;
     position: relative;
-    top: -110px;
-}
-
-.about .count-down h1 {
-    color: var(--white, #FFF);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 202px;
+    overflow: hidden;
     text-align: center;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
 }
 
-.about .count-down p {
-    color: var(--white, #FFF);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-.count_down_food {
+.count-down .count_down_food {
+    width: 50px;
+    height: 50px;
     position: absolute;
-    z-index: 2;
-    top: -15px;
-    left: -30px;
-    width: 59px;
-    height: 59px;
+    left: -20px;
+    top: -20px;
 }
 
-.count_down_plate {
-    z-index: 2;
+.count-down .count_down_plate {
     position: absolute;
     right: 0;
 }
 
 .about-foodeats {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 130px;
+    margin: 100px 0;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
-.about-foodeats .ill {}
-
-.about-foodeats .ill .rectangle {
-    content: "";
-    display: block;
-    width: 570px;
-    height: 478px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #29B067;
-    position: relative;
-}
-
-.about-foodeats .ill .rectangle2 {
-    width: 494px;
-    height: 556px;
+.ill {
+    width: 460px;
+    height: 500px;
     flex-shrink: 0;
     border-radius: 12px;
     background: linear-gradient(181deg, #FFCF54 0%, #FFB700 98.96%);
-    position: absolute;
-    left: 38px;
-    top: 38px;
-    z-index: 1;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+    border: solid 40px #29B067;
+    border-bottom: none;
+    position: relative;
 }
 
-.rectangle2-1 {
+.ill .rectangle1-1 {
     position: absolute;
-    z-index: 3;
-    top: 33%;
-    left: 10%;
+    width: 80%;
+    flex-shrink: 0;
+    top: 20%;
+    left: 0;
 }
 
-.rectangle2-2 {
+.ill .rectangle1-2 {
     position: absolute;
-    bottom: -15%;
-    z-index: 3;
-    LEFT: 10%;
+    bottom: 6%;
+    left: 0;
 }
 
-.rectangle2-3 {
+.ill .rectangle1-3 {
     position: absolute;
-    z-index: 3;
-    right: 15%;
-    top: 15%;
+    top: 5%;
+    right: 5%;
 }
 
-.rectangle2-4 {
-    position: absolute;
-    z-index: 3;
-}
-
-.rectangle .title1 {
-    position: absolute;
-    z-index: 3;
-    width: 168.408px;
+.ill .title1 {
     transform: rotate(-15deg);
     color: #191720;
-    font-size: 60px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
-    left: 15%;
-    top: 15%;
+    font-weight: 800;
 }
 
-.rectangle .title2 {
-    position: absolute;
-    z-index: 3;
-    width: 168.408px;
+.ill .title2 {
     transform: rotate(-15deg);
     color: #191720;
-    font-size: 60px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 100px;
-    bottom: -15%;
-    right: 10%;
+    font-weight: 800;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
 }
 
-.about-foodeats .content {
-    width: 440px;
+.content {
+    width: 45%;
 }
 
-.about-foodeats .content h1 {
-    color: #191720;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
+.content h1 {
+    font-weight: 800;
+    padding: 15px 0;
 }
 
-.about-foodeats .content p {
-    color: #575363;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 30px;
+.content p {
+    padding: 5px 0;
+    width: 80%;
 }
 
-.about-foodeats .content button {
+.content button {
     width: 120px;
-    height: 45px;
+    height: 40px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 .features {
-    padding: 120px 135px;
     text-align: center;
-    position: relative;
-}
-
-.features .base-icon1 {
-    position: absolute;
-    left: 0;
-    z-index: -1;
-    bottom: 0;
-}
-
-.features .base-icon2 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
+    padding-bottom: 100px;
 }
 
 .features h1 {
-    color: #191720;
-    text-align: center;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
+    font-weight: 800;
+    padding: 15px 0;
 }
 
 .features p {
-    color: #575363;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 12px 0;
-    margin-bottom: 50px;
+    padding: 15px 0;
 }
 
-.features .features-base {
+.features-base {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
 }
 
-.card-features {
-    width: 555px;
-    min-height: 400px;
-    flex-shrink: 0;
+.features-base .card-features {
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.11);
     padding: 20px;
-    border-radius: 12px;
-    background: #FFF;
-    box-shadow: 0px 20px 70px 0px rgba(27, 12, 84, 0.07);
-
+    border-radius: 20px;
 }
 
-.card-features img {
-    width: 200px;
-    margin: 30px 0;
-    margin-bottom: 50px;
-}
-
-.card-features button {
-    width: 120px;
-    height: 45px;
-    font-weight: 600;
-    margin-bottom: 30px;
+.features-base .card-features button {
     background-color: #191720;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
 }
 
-.card-features button:hover {
+.features-base .card-features img {
+    width: 250px;
+    height: 150px;
+}
+
+.features-base .card-features:hover button {
     background-color: var(--purple-primary);
 }
 
+.features-base .card-features:hover {
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
 .testimotions {
-    padding: 100px 135px;
-    background-color: var(--yellow-light);
+    padding-bottom: 100px;
 }
 
 .testimotions h1 {
-    color: var(--dark, #191720);
-
     font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
+    font-weight: 800;
 }
 
 .testimotions-base {
-    margin-top: 40px;
+    padding: 40px 0;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .card-testimation {
-    background-color: #fff;
     padding: 20px;
-    width: 365px;
-    height: 281px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: var(--white, #FFF);
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-testimation:hover {
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card-testimation:hover h1 {
@@ -483,46 +413,162 @@
 }
 
 .card-testimation p {
-    color: #575363;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    width: 300px;
     position: relative;
     padding-bottom: 20px;
 }
 
-.card-testimation h1 {
-    color: var(--dark, #191720);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px;
-}
-
 .card-testimation p::after {
+    position: absolute;
     content: "";
     display: block;
-    width: 100%;
+    width: 300px;
     height: 1px;
-    background-color: #ccc;
-    position: absolute;
     bottom: 0;
+    background-color: #cccc;
 }
 
-.card-testimation span {
-    color: #575363;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.card-rating {
-    margin: 15px 0;
+.card-testimation h1 {
+    font-size: 20px;
 }
 
 .card-rating i {
+    font-size: 13px;
     color: #FFB700;
-    font-size: 15px;
+}
+
+@media (max-width: 1100px) {
+    .texts h2 {
+        font-size: 25px;
+    }
+
+    .texts h1 {
+        font-size: 35px;
+        width: 400px;
+    }
+
+    .texts p {
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .texts button {
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .texts input {
+        height: 40px;
+        top: 0;
+    }
+
+    .ill {
+        width: 400px;
+        height: 460px;
+    }
+
+    .card-features {
+        width: 400px;
+    }
+
+    .card-features h1 {
+        font-size: 30px;
+    }
+
+    .card-features p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .texts h2 {
+        font-size: 30px;
+    }
+
+    .texts h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .texts p {
+        font-size: 35px;
+        width: 80%;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .image .rectnagle2 {
+        width: 550px;
+        height: 650px;
+    }
+
+    .ill {
+        width: 500px;
+        height: 650px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .features-base {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 540px) {
+    .texts h2 {
+        font-size: 20px;
+    }
+
+    .texts h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .texts p {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .image .rectnagle2 {
+        width: 450px;
+        height: 450px;
+    }
+
+    .image img {
+        width: 400px;
+        height: 400px;
+        left: -10px;
+    }
+
+    .image .image-title1 {
+        font-size: 30px;
+    }
+
+    .image .image-title2 {
+        font-size: 30px;
+    }
+
+    .image .image-star {
+        width: 200px;
+        height: 200px;
+    }
+
+    .ill {
+        width: 100%;
+        height: 400px;
+    }
+
+    .content {
+        width: 100%;
+    }
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header food delivery</title>
+    <link rel="stylesheet" href="../footer/footer.css">
     <link rel="stylesheet" href="./header.css">
 </head>
 
@@ -14,21 +15,14 @@
         <header class="grid wide">
             <nav class="header-nav">
                 <div>
-                    <!-- <span>F</span>
-                    <img src="C:\Users\Admin\Documents\Tài liệu đại học\Lập Trình Website\websiteClass\ProjectFood\app\images\logoHeader1.png"
-                        alt="Logo Header">
-                    <img src="C:\Users\Admin\Documents\Tài liệu đại học\Lập Trình Website\websiteClass\ProjectFood\app\images\logoHeader2.png"
-                        alt="Logo Header">
-                    <span>DEATS</span> -->
-
                     <h1>FOODEATS</h1>
                 </div>
 
-                <div class="nav-menu">
+                <div class="nav-menu list-appre">
 
                     <ul>
                         <li>About</li>
-                        <li>Restaurants</li>
+                        <li><a href="../../pages/restaurants/restaurants.html">Restaurants</a> </li>
                         <li>Blog</li>
                         <li>Contact</li>
                         <li>FAQ</li>
@@ -42,10 +36,42 @@
 
                     <button class="button-primary">Sign Up</button>
 
+                    <i class="fa-solid fa-list active modal_menu"></i>
+
+                    <div class="list_menu active_menu ">
+                        <a href="#"> About </a>
+                        <a href="#"> Restaurants </a>
+                        <a href="#"> Blog </a>
+                        <a href="#"> Contact </a>
+                        <a href="#"> FAQ </a>
+                    </div>
                 </div>
             </nav>
         </header>
     </div>
+    <div class="container"></div>
+
+    <!-- <script src="./header.js"></script> -->
+
+    <script>
+        const modalMenu = document.querySelector('.modal_menu');
+        const listMenu = document.querySelector('.list_menu');
+        const container = document.querySelector('.container')
+        const footer = document.querySelector('.footer');
+
+        modalMenu.addEventListener('click', (e) => {
+            listMenu.classList.toggle('active_menu');
+            e.stopPropagation();
+        })
+
+        document.addEventListener('click', (e) => {
+            const clickElement = e.target;
+
+            if (!listMenu.contains(clickElement)) {
+                listMenu.classList.add('active_menu');
+            }
+        })
+    </script>
 
 </body>
 

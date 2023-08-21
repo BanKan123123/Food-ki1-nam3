@@ -1,28 +1,22 @@
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 
 export default function includeHTMLFile(url, element) {
-    console.log(url, element);
     fetch(url)
         .then(res => res.text())
         .then(htmlContent => {
-            console.log(htmlContent);
             document.getElementById(element).innerHTML = htmlContent;
-        })
+
+            const cssLinks = htmlContent.match(/<link[^>]+href=["'](.*?)\.css["'][^>]*>/g);
+
+            // Thêm các thẻ <link> vào trang
+            if (cssLinks) {
+                cssLinks.forEach(cssLink => {
+                    const link = document.createElement('link');
+                    link.rel = 'stylesheet';
+                    link.href = cssLink.match(/href=["'](.*?)["']/)[1]; // Lấy đường dẫn từ đoạn mã
+                    document.head.appendChild(link);
+                });
+            }
+        });
+
 }
-// class FunctionHandleIncludeHTML {
-//     includeHTMLFile(url, element) {
-//         console.log(url, element);
-//         fetch(url)
-//             .then(res => res.text())
-//             .then(htmlContent => {
-//                 console.log(htmlContent);
-//                 document.getElementById(element).innerHTML = htmlContent
-//             })
-//     }
-// }
-
-// includeHTMLFile('./common/header/header.html', 'header');
-
-// includeHTMLFile('./common/footer/footer.html', 'footer');
-
-// exports.module = new FunctionHandleIncludeHTML();

@@ -12,7 +12,7 @@
     background: var(--yellow-light);
     cursor: pointer;
     display: block;
-    z-index: 9999;
+    z-index: 4;
 }
 
 .header span {
@@ -23,29 +23,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(50%);
+    height: 108px;
+    line-height: 108px;
 }
 
 .header-nav h1 {
     font-weight: 800;
-}
-
-.header-nav div {
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .nav-menu ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-menu li {
-    min-width: 100px;
-    padding: 20px 0;
+    display: inline-block;
+    min-width: 120px;
     text-align: center;
     font-size: 16px;
     border-radius: 10px;
+    height: 50px;
+    line-height: 50px;
 }
 
 .nav-menu li:hover {
@@ -56,19 +55,17 @@
     box-shadow: 3px 3px 40px #af910d7e;
 }
 
-.nav-menu li img {
-    position: relative;
-    top: 5px;
-}
-
 .nav-author {
     cursor: pointer;
+    position: relative;
 }
 
 .nav-author button {
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     font-weight: 700;
+    line-height: 50px;
+    font-size: 16px;
 }
 
 .btn-signin {
@@ -81,11 +78,157 @@
     padding: 0 20px;
 }
 
+.nav-author i {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.nav-author i:hover {
+    color: var(--purple-primary);
+    box-shadow: 3px 3px 40px rgba(131, 113, 31, 0.2);
+}
+
 .btn-signin:hover {
     box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
 }
 
 .btn-signin:active {
     box-shadow: 0 3px 30px rgba(0, 0, 0, 0.4);
+}
 
+
+.list-appre {
+    display: inline-block;
+}
+
+.list_menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+
+.list_menu a {
+    color: #333;
+    height: 45px;
+    line-height: 45px;
+    width: 400px;
+    background-color: #e0e0e021;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.active_menu {
+    display: none;
+}
+
+.active {
+    display: none !important;
+}
+
+.list_menu a:hover {
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1113px) {
+
+    .item_list {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1111px) {
+
+    .active {
+        display: inline-block !important;
+    }
+
+    .list-appre {
+        display: none;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 0;
+    }
+
+    .nav-menu ul {
+        position: absolute;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .wide {
+        max-width: 100% !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+    .wide {
+        max-width: 100% !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 740px) {
+    .active {
+        display: inline-block !important;
+    }
+
+    .list-appre {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    .header-nav {
+        align-items: baseline;
+    }
+
+    .wide {
+        max-width: 100% !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .header-nav h1 {
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .nav-author button {
+        width: 100px;
+        height: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .nav-author i {
+        font-size: 20px;
+    }
+
+    .btn-signin {
+        border-radius: 4px;
+        color: var(--dark);
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+    }
+
+    .list_menu a {
+        color: #333;
+        height: 45px;
+        line-height: 45px;
+        width: 200px;
+        background-color: #e0e0e021;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
 }

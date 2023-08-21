@@ -6,3 +6,12 @@
 .detail-blog-container {
     margin-top: 108px;
 }
+
+.blog-news {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
