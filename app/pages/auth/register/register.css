@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+img{
+    width: 30px;height: 30px;
+   
+}
+.signup-container h2 {
+    margin-bottom: 20px;
+}
+
+.social-login button {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* .social-login button:hover {
+    /* background-color: hsl(211, 66%, 58%); */
+    /* color: #fff; */
+
+
+.or-divider {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.email-signup {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.email-signup label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.email-signup input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 22px;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a682c;
+}
+
+.have-account {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.have-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+.signup-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px; 
+    height: auto;
+    margin: 0 auto; /* Để căn giữa trang */
+    font-size: 16px;
+}
+    
