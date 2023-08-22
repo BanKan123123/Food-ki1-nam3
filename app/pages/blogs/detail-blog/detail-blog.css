@@ -5,13 +5,67 @@
 
 .detail-blog-container {
     margin-top: 108px;
+    padding: 100px 0;
 }
 
-.blog-news {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+.blog-social {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
 }
 
+.blog-social i {
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.blog-social i:hover {
+    color: var(--purple-primary);
+}
+
+.content {
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.content img {
+    width: 80%;
+    flex-shrink: 0;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+.content div {
+    margin: 0 10%;
+    text-align: left;
+}
+
+.content h1 {
+    color: #191720;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 15px 0;
+}
+
+.blog-post {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.blog-post-title {
+    color: #191720;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.blogs {
+    text-align: left;
+    padding-top: 60px;
+}
 
