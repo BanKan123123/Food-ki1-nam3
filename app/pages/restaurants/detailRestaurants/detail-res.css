@@ -66,6 +66,7 @@ p {
     background: var(--orange);
     border-radius: 4px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .store__info p {
@@ -137,6 +138,11 @@ p {
     align-items: center;
     list-style: none;
     margin-bottom: 56px;
+    padding-left: unset;
+}
+
+.menu__item:first-child {
+    margin-left: unset;
 }
 
 .menu__item {
