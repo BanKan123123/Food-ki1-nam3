@@ -38,7 +38,7 @@ btns.forEach((btn) => {
 
 // Appear or hiden modal
 
-const modal = $('.wrapper-modal');
+const modal = $('.modal_js');
 const options = $('.sort__options');
 const wrapper = $('.wrapper');
 
@@ -57,10 +57,22 @@ options.addEventListener('click', function(){
     }
 })
 
+// wrapper.addEventListener('click', function() {
+//     if ($('.sort__options.border-radius')) {
+//         options.classList.remove('border-radius');
+//         modal.classList.add('hiden');
+//     }
+// })
+
+const modal_js_mobile = $('.wrapper__modal--mobile');
 const sort_mobile = $('.btn-sort-by--mobile');
 
 sort_mobile.addEventListener('click', function() {
-    modal.classList.remove('hiden');
+    modal_js_mobile.classList.remove('hiden');
+})
+
+modal_js_mobile.addEventListener('click', function() {
+    modal_js_mobile.classList.add('hiden');
 })
 
 const left_mobile = $('.left--mobile');
