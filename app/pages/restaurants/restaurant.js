@@ -1,5 +1,16 @@
 // Create a event click restaurants and Catering
 
+function includeHTMLFile(url, elementId) {
+    fetch(url)
+        .then(res => res.text())
+        .then(htmlContent => {
+            console.log(htmlContent);
+            document.getElementById(elementId).innerHTML = htmlContent;
+        });
+}
+
+includeHTMLFile("../../common/footer/footer.html", "footer");
+
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 const items = $$('.item-js');
@@ -57,12 +68,12 @@ options.addEventListener('click', function(){
     }
 })
 
-// wrapper.addEventListener('click', function() {
-//     if ($('.sort__options.border-radius')) {
-//         options.classList.remove('border-radius');
-//         modal.classList.add('hiden');
-//     }
-// })
+wrapper.addEventListener('click', function() {
+    if ($('.sort__options.border-radius')) {
+        options.classList.remove('border-radius');
+        modal.classList.add('hiden');
+    }
+})
 
 const modal_js_mobile = $('.wrapper__modal--mobile');
 const sort_mobile = $('.btn-sort-by--mobile');
@@ -96,7 +107,7 @@ filter_item.forEach(item => {
     item.addEventListener('click', function() {
         if ($('.p-active')) {
             $('.p-active').classList.remove('p-active');
-        } 
+        }
         item.classList.add('p-active');
     })
 });
