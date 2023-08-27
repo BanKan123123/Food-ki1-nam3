@@ -1,0 +1,104 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* Mobile & tablet */
+
+@media (max-width: 1023px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --header-height: 108px;
+        --width: current screen width;
+    }
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .right, .left {
+        margin-top: unset;
+        width: 100%;
+    }
+
+    .back {
+        margin-top: calc(18px + var(--header-height));
+        margin-left: calc(var(--width)*6,4%);
+        margin-bottom: 18px;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .left {
+        height: var(--width);
+        margin-bottom: 18px;
+    }
+
+    .title {
+        margin-bottom: 12px;
+        font-size: 20px;
+    }
+
+    .detail {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .price {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .special__instructions h2 {
+        margin-bottom: 12px;
+    }
+
+    #txtInstructions {
+        width: 100%;
+    }
+
+    .controls {
+        display: block;
+        width: 100%;
+        margin-right: unset;
+    }
+
+    .quantity {
+        margin-right: unset;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .btn__add {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 70px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}

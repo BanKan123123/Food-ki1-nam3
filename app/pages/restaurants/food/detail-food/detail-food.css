@@ -1,0 +1,159 @@
+@import url("../../../../common/styles/reset.css");
+@import url('../../../../common/styles/base.css');
+@import url('../../../../common/styles/variables.css');
+
+:root {
+    --header-height: 108px;
+}
+
+.back {
+    display: block;
+    margin-bottom: 30px;
+    color: var(--dark);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 160px;
+    margin-top: calc(55px + var(--header-height));
+}
+
+.left {
+    width: 570px;
+    height: 570px;
+    margin-right: 130px;
+}
+
+.right {
+    width: 470px;
+    margin-top: 60px;
+}
+
+.rounded {
+    width: 100%;
+}
+
+.title {
+    color: var(--dark);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.detail {
+    margin: 18px 0;
+    color: var(--grey);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.price {
+    color: var(--orange);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.special__instructions h2 {
+    color: var(--dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+
+#txtInstructions {
+    width: 100%;
+    height: 170px;
+    border-radius: 12px;
+    border: 1px solid var(--purple-light);
+    background: var(--white);
+    padding-top: 18px;
+    padding-left: 18px;
+    color: var(--grey);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+#txtInstructions:focus {
+    outline: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 172px;
+    height: 60px;
+    border: 1px solid var(--purple-light);
+    border-radius: 6px;
+}
+
+.number {
+    color: var(--dark);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+.decrease {
+    display: block;
+    background-color: unset;
+    font-size: 28px;
+    text-align: center;
+    color: #aba9b1;
+    border-radius: 0.5px;
+    padding: 10px;
+}
+
+.increase {
+    background-color: unset;
+}
+
+.btn__add {
+    width: 280px;
+    height: 60px;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color: var(--dark);
+    transition: all .5s ease;
+}
+
+.btn__add:hover {
+    opacity: 0.8;
+}
+
+.btn__add p {
+    margin: 0;
+    color: var(--white);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}

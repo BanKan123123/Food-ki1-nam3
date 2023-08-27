@@ -1,7 +1,11 @@
 @import url('../../../common/styles/reset.css');
 @import url('../../../common/styles/variables.css');
-@import url('../../../common/styles/base.css');
 @import url('../../../common/styles/grid.css');
+@import url('../../../common/styles/base.css');
+
+:root {
+    --header-height: 108px;
+}
 
 *,
 p {
@@ -20,6 +24,7 @@ p {
 
 .container {
     margin: 0 135px;
+    margin-top: var(--header-height);
 }
 
 .img__restaurant {
@@ -108,6 +113,10 @@ p {
     border-left: unset;
 }
 
+.info__row-2 p {
+    margin-bottom: 0;
+}
+
 .add-to-favorites {
     display: flex;
     align-items: center;
@@ -123,6 +132,10 @@ p {
 
 .add-to-favorites svg {
     margin: 0 11px;
+}
+
+.add-to-favorites p {
+    margin-bottom: 0;
 }
 
 .separator {
@@ -179,6 +192,7 @@ p {
 
 .mask-group__item {
     cursor: pointer;
+    margin-bottom: 0;
 }
 
 .arrow__right {
@@ -229,6 +243,10 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card__footer p {
+    margin-bottom: 0;
 }
 
 .card-price {
@@ -295,6 +313,7 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 0;
 }
 
 .num {
@@ -400,15 +419,11 @@ blockquote::before {
     margin-bottom: 160px;
 }
 
-.btn {
-    background: var(--purple-primary);
+.btn-view-all {
     outline: none;
     border: none;
     transition: all .3s ease;
     padding: 15px 35px;
     border-radius: 6px;
-}
-
-.btn:hover {
-    background: #4810ff;
+    background-color: var(--purple-primary);
 }
