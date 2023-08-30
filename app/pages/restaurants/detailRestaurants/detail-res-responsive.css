@@ -14,6 +14,7 @@
 
     .container {
         margin-left: unset;
+        padding: 0 18px;
     }
 
     .img__restaurant {
@@ -77,6 +78,11 @@
 
     .mask-group__item {
         font-size: 16px;
+    }
+
+
+    .card {
+        margin: 0 12px;
     }
 
     .card__footer a rect {
