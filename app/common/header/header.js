@@ -1,8 +1,18 @@
-
 const modalMenu = document.querySelector('.modal_menu');
 const listMenu = document.querySelector('.list_menu');
 const container = document.querySelector('.container')
 const footer = document.querySelector('.footer');
+const btnCart = document.querySelector('.btn__buy');
+const cart = document.querySelector('.header__cart-list');
+const timeAppear = document.querySelector('.time-apear');
+const btnDecrease = document.querySelector('.btn-decrease');
+const btnIncrease = document.querySelector('.btn-increase');
+const cartCounter = document.querySelector('.header__cart-item-quantity-counts');
+const checkoutPrice = document.querySelector('.header__cart-view-cart-total');
+
+let count = 2;
+let price = 15.00;
+let totalPrice = 30.00;
 
 modalMenu.addEventListener('click', (e) => {
     listMenu.classList.toggle('active_menu');
@@ -17,59 +27,34 @@ document.addEventListener('click', (e) => {
     }
 })
 
-// console.log(modalMenu);
+//cart
 
-// fetch('../../../home_container.html')
-//     .then(res => res.text())
-//     .then((data) => {
-//         container.innerHTML = data;
-//     })
+btnCart.addEventListener('click', (e) => {
+    cart.classList.toggle('appear');
+    e.stopPropagation();
+})
 
-// fetch('../footer/footer.html')
-//     .then(res => res.text())
-//     .then(data => {
-//         footer.innerHTML = data;
-//     }) 
-
-
-// Cart
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
-const quantity = $('.header__cart-item-quantity-counts');
-
-let counts = 2;
-let price = 15;
-let total = 30;
-
-const decrease = $('.header__cart-item-quantity-decrease');
-const increase = $('.header__cart-item-quantity-increase');
-const totalPrice = $('.header__cart-view-cart-total');
-const headerCartList = $('.header__cart-list');
-const btnClose = $('.btn__close');
-const btnBuy = $('.btn__buy');
-
-btnBuy.addEventListener ('click', ()=> {
-    headerCartList.classList.add('appear');
-});
-
-btnClose.addEventListener('click', () => {
-    if($('.header__cart-list.appear')) {
-        headerCartList.classList.remove('appear');
+timeAppear.addEventListener('click', (e) => {
+    if (document.querySelector('.header__cart-list.appear')) {
+        cart.classList.remove('appear');
     }
-});
+})
 
-increase.addEventListener('click', () => {
-    counts++;
-    total = price * counts;
-    quantity.innerText = counts;
-    totalPrice.innerText = total+'.00';
-});
-
-decrease.addEventListener('click', () => {
-    if (counts > 0) {
-        counts--;
-        total = price * counts;
-        quantity.innerText = counts;
-        totalPrice.innerText = total+'.00';
+btnDecrease.addEventListener('click', () => {
+    count--;
+    cartCounter.innerText = count;
+    if (count <= 0) {
+        cartCounter.innerText = 0;
+        count = 0;
     }
-});
+
+    totalPrice = price * count;
+    checkoutPrice.innerText = totalPrice + '.00';
+})
+
+btnIncrease.addEventListener('click', () => {
+    count++;
+    cartCounter.innerText = count;
+    totalPrice = price * count;
+    checkoutPrice.innerText = totalPrice + '.00';
+})
