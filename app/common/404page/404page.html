@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FOODEATS</title>
+        <link rel="stylesheet" href="../../common/styles/reset.css" />
+        <link rel="stylesheet" href="../../common/styles/variables.css" />
+        <link rel="stylesheet" href="../../common/styles/grid.css" />
+        <link rel="stylesheet" href="../../common/styles/base.css" />
+        <link rel="stylesheet" href="../../common/header/header.css" />
+        <link rel="stylesheet" href="../../common/footer/footer.css" />
+
+        <link rel="stylesheet" href="./404page.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <header class="grid wide">
+                <nav class="header-nav">
+                    <div>
+                        <h1>FOODEATS</h1>
+                    </div>
+
+                    <div class="nav-menu list-appre">
+                        <ul>
+                            <li>
+                                <a href="../../pages/about/about.html">About</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="../../pages/restaurants/restaurants.html"
+                                    >Restaurants</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../../pages/blogs/blogs.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../../pages/contact/contact.html"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li><a href="../../pages/faq/faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-author">
+                        <button class="btn-signin">Sign In</button>
+
+                        <button class="button-primary">Sign Up</button>
+
+                        <i class="fa-solid fa-list active modal_menu"></i>
+
+                        <div class="list_menu active_menu">
+                            <a href="#"> About </a>
+                            <a href="#"> Restaurants </a>
+                            <a href="#"> Blog </a>
+                            <a href="#"> Contact </a>
+                            <a href="#"> FAQ </a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <!-- Main -->
+        <main class="main">
+            <div class="content__404">
+                <img
+                    src="../../images/404.png"
+                    alt="404 error"
+                    class="img__404"
+                />
+                <p class="desc">
+                    Sorry, the page you’re looking for doesn’t exist. If you
+                    think something is broken, report a porblem
+                </p>
+                <button class="button btn__404">Go to home</button>
+            </div>
+        </main>
+        <script src="./404page.js"></script>
+        <script src="../../../app.js" type="module"></script>
+        <script src="../../common/header/header.js" type="module"></script>
+    </body>
+</html>

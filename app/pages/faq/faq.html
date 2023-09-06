@@ -1,5 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FOODEATS</title>
+        <link rel="stylesheet" href="../../common/styles/reset.css" />
+        <link rel="stylesheet" href="../../common/styles/variables.css" />
+        <link rel="stylesheet" href="../../common/styles/grid.css" />
+        <link rel="stylesheet" href="../../common/styles/base.css" />
+        <link rel="stylesheet" href="../../common/header/header.css" />
+        <link rel="stylesheet" href="../../common/footer/footer.css" />
+
+        <link rel="stylesheet" href="./faq.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <header class="grid wide">
+                <nav class="header-nav">
+                    <div>
+                        <h1>FOODEATS</h1>
+                    </div>
+
+                    <div class="nav-menu list-appre">
+                        <ul>
+                            <li>
+                                <a href="../../pages/about/about.html">About</a>
+                            </li>
+                            <li>
+                                <a
+                                    href="../../pages/restaurants/restaurants.html"
+                                    >Restaurants</a
+                                >
+                            </li>
+                            <li>
+                                <a href="../../pages/blogs/blogs.html">Blog</a>
+                            </li>
+                            <li>
+                                <a href="../../pages/contact/contact.html"
+                                    >Contact</a
+                                >
+                            </li>
+                            <li><a href="../../pages/faq/faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-author">
+                        <button class="btn-signin">Sign In</button>
+
+                        <button class="button-primary">Sign Up</button>
+
+                        <i class="fa-solid fa-list active modal_menu"></i>
+
+                        <div class="list_menu active_menu">
+                            <a href="#"> About </a>
+                            <a href="#"> Restaurants </a>
+                            <a href="#"> Blog </a>
+                            <a href="#"> Contact </a>
+                            <a href="#"> FAQ </a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <!-- Main -->
+        <main class="main">
+            <div class="faq--content">
+                <div class="faq__top">
+                    <h2 class="faq__heading">
+                        Most asked questions by our beloved customers
+                    </h2>
+                    <img
+                        class="faq__img"
+                        src="../../images/faq-img.png"
+                        alt="FAQ images"
+                    />
+                </div>
+
+                <div class="faq__bottom">
+                    <!-- FAQ item 1 -->
+                    <div class="faq__item">
+                        <div class="faq__item-header">
+                            <h3 class="faq__title">What is FoodEats?</h3>
+                            <div class="faq__action">
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-hidden"
+                                >
+                                    <i class="hidden__icon">
+                                        <img
+                                            src="../../images/hidden.svg"
+                                            alt="hidden"
+                                        />
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-show"
+                                    hidden
+                                >
+                                    <i class="show__icon">
+                                        <img
+                                            src="../../images/show.svg"
+                                            alt="Show"
+                                        />
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="faq__item-content show__para">
+                            FoodEats is a technology company that provides
+                            logistics services to both vendors and consumers.
+                            This potentially allows food vendors to deliver
+                            meals seamlessly while also providing consumers with
+                            an easy platform to order meals from their favourite
+                            restaurants in their city.
+                        </p>
+                    </div>
+
+                    <!-- FAQ item 2 -->
+                    <div class="faq__item">
+                        <div class="faq__item-header">
+                            <h3 class="faq__title">
+                                What location do we provide service
+                            </h3>
+                            <div class="faq__action">
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-hidden"
+                                    hidden
+                                >
+                                    <i class="hidden__icon">
+                                        <img
+                                            src="../../images/hidden.svg"
+                                            alt="hidden"
+                                        />
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-show"
+                                >
+                                    <i class="show__icon">
+                                        <img
+                                            src="../../images/show.svg"
+                                            alt="Show"
+                                        />
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="faq__item-content show__para" hidden>
+                            FoodEats is a technology company that provides
+                            logistics services to both vendors and consumers.
+                            This potentially allows food vendors to deliver
+                            meals seamlessly while also providing consumers with
+                            an easy platform to order meals from their favourite
+                            restaurants in their city.
+                        </p>
+                    </div>
+
+                    <!-- FAQ item 3 -->
+                    <div class="faq__item">
+                        <div class="faq__item-header">
+                            <h3 class="faq__title">
+                                What is the delivery fee?
+                            </h3>
+                            <div class="faq__action">
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-hidden"
+                                    hidden
+                                >
+                                    <i class="hidden__icon">
+                                        <img
+                                            src="../../images/hidden.svg"
+                                            alt="hidden"
+                                        />
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-show"
+                                >
+                                    <i class="show__icon">
+                                        <img
+                                            src="../../images/show.svg"
+                                            alt="Show"
+                                        />
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="faq__item-content show__para" hidden>
+                            FoodEats is a technology company that provides
+                            logistics services to both vendors and consumers.
+                            This potentially allows food vendors to deliver
+                            meals seamlessly while also providing consumers with
+                            an easy platform to order meals from their favourite
+                            restaurants in their city.
+                        </p>
+                    </div>
+
+                    <!-- FAQ item 4 -->
+                    <div class="faq__item">
+                        <div class="faq__item-header">
+                            <h3 class="faq__title">
+                                How I can become a rider?
+                            </h3>
+                            <div class="faq__action">
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-hidden"
+                                    hidden
+                                >
+                                    <i class="hidden__icon">
+                                        <img
+                                            src="../../images/hidden.svg"
+                                            alt="hidden"
+                                        />
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-show"
+                                >
+                                    <i class="show__icon">
+                                        <img
+                                            src="../../images/show.svg"
+                                            alt="Show"
+                                        />
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="faq__item-content show__para" hidden>
+                            FoodEats is a technology company that provides
+                            logistics services to both vendors and consumers.
+                            This potentially allows food vendors to deliver
+                            meals seamlessly while also providing consumers with
+                            an easy platform to order meals from their favourite
+                            restaurants in their city.
+                        </p>
+                    </div>
+
+                    <!-- FAQ item 5 -->
+                    <div class="faq__item">
+                        <div class="faq__item-header">
+                            <h3 class="faq__title">
+                                How I can become a partner?
+                            </h3>
+                            <div class="faq__action">
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-hidden"
+                                    hidden
+                                >
+                                    <i class="hidden__icon">
+                                        <img
+                                            src="../../images/hidden.svg"
+                                            alt="hidden"
+                                        />
+                                    </i>
+                                </button>
+                                <button
+                                    type="button"
+                                    class="btn__faq btn__faq-show"
+                                >
+                                    <i class="show__icon">
+                                        <img
+                                            src="../../images/show.svg"
+                                            alt="Show"
+                                        />
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                        <p class="faq__item-content show__para" hidden>
+                            FoodEats is a technology company that provides
+                            logistics services to both vendors and consumers.
+                            This potentially allows food vendors to deliver
+                            meals seamlessly while also providing consumers with
+                            an easy platform to order meals from their favourite
+                            restaurants in their city.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer id="footer"></footer>
+
+        <!-- Script -->
+        <script src="./faq.js"></script>
+        <script src="../../../app.js" type="module"></script>
+        <script src="../../common/header/header.js" type="module"></script>
+    </body>
+</html>
+=======
 
 <head>
     <meta charset="UTF-8">
