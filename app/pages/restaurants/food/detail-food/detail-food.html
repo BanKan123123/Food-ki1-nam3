@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./detail-food.css">
+    <link rel="stylesheet" href="./detail-food-responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../common/header/header.css">
+    <link rel="stylesheet" href="../../../../common/footer/footer.css">
+    <title>Food detail</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <header class="grid wide">
+            <nav class="header-nav">
+                <div>
+                    <h1><a href="../../../home/home.html">FOODEATS</a></h1>
+                </div>
+
+                <div class="nav-menu list-appre">
+
+                    <ul>
+                        <li> <a href="../../../about/about.html">About</a></li>
+                        <li><a href="../../../restaurants/restaurants.html">Restaurants</a>
+                        </li>
+                        <li><a href="../../../blogs/blogs.html">Blog</a></li>
+                        <li><a href="../../../contact/contact.html">Contact</a>
+                        </li>
+                        <li><a href="../../../faq/faq.html">FAQ</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="nav-author">
+
+                    <!-- <button class="btn-signin">Sign In</button> -->
+                    <button class="btn__buy">
+                        <img src="../../../../assets/img/Buy.png" alt="">
+                    </button>
+
+                    <button class="button-primary">Sign Up</button>
+
+                    <i class="fa-solid fa-list active modal_menu"></i>
+
+                    <div class="list_menu active_menu ">
+                        <a href="../../../about/about.html"> About </a>
+                        <a href="../../../restaurants/restaurants.html"> Restaurants </a>
+                        <a href="../../../blogs/blogs.html"> Blog </a>
+                        <a href="../../../contact/contact.html"> Contact </a>
+                        <a href="../../../faq/faq.html"> FAQ </a>
+                    </div>
+                    <div class="header__cart-list">
+                        <lord-icon class="time-apear" src="https://cdn.lordicon.com/nhfyhmlt.json" trigger="hover"
+                            colors="primary:#121331" style="width:40px;height:40px">
+                        </lord-icon>
+
+                        <h4 class="header__cart-heading">
+                            The Burger Cafe
+                        </h4>
+                        <ul class="header__cart-list-item">
+                            <li class="header__cart-item">
+                                <div class="header__cart-item-img-quantity">
+                                    <img class="header__cart-item-img"
+                                        src="https://cf.shopee.vn/file/10ad3c23d56f4a55180ed0ac590c0860_tn" alt="">
+                                    <div class="header__cart-item-quantity">
+                                        <span class="header__cart-item-quantity-decrease btn-decrease">
+                                            -
+                                        </span>
+                                        <span class="header__cart-item-quantity-counts">
+                                            2
+                                        </span>
+                                        <span class="header__cart-item-quantity-increase btn-increase">
+                                            +
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Eggs Benedict Burger
+                                        </h5>
+                                        <div class="header__cart-price-wrap">
+                                            <span class="header__cart-item-price">$15.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <div class="header__cart-footer">
+                            <div class="header__cart-view-cart">Go to Check Out $<p
+                                    class="header__cart-view-cart-total">30.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="left">
+            <a href="#" class="back">
+                <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
+                    <path d="M5 9L1 5L5 1" stroke="#191720" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                Back to The Burger Cafe
+            </a>
+            <img src="../../../../assets/img/The Burger Cafe.png" class="rounded" alt="Cinque Terre">
+        </div>
+        <div class="right">
+            <h1 class="title">
+                Eggs Benedict Burger
+            </h1>
+            <p class="detail">
+                Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much taste you would like
+                most this taste burger.
+            </p>
+            <p class="price">
+                $7.50
+            </p>
+            <span class="special__instructions">
+                <h2>Special Instructions</h2>
+                <textarea name="txtInstructions" id="txtInstructions" cols="30" rows="10"
+                    placeholder="Ad any request here"></textarea>
+            </span>
+            <div class="controls">
+                <span class="quantity">
+                    <button class="decrease">-</button>
+                    <p class="number">0</p>
+                    <button class="increase">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <rect y="5.5" width="12" height="1" rx="0.5" fill="#575363" />
+                            <rect x="5.5" y="12" width="12" height="1" rx="0.5" transform="rotate(-90 5.5 12)"
+                                fill="#575363" />
+                        </svg>
+                    </button>
+                </span>
+                <button type="button" class="btn__add">
+                    <p>Add to cart:&nbsp;</p>
+                    <p class="total__prices">0.00</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="../../../../common/header/header.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./detail.food.js" type="module"></script>
+    <script src="../../../../common/header/header.js"></script>
+</body>
+
+</html>

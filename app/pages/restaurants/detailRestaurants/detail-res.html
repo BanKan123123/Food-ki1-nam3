@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./detail-res.css">
+    <link rel="stylesheet" href="./detail-res-responsive.css">
+    <link rel="stylesheet" href="../../../common/footer/footer.css">
+    <link rel="stylesheet" href="../../../common/header/header.css">
+    <title>Restaurants Detail</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <header class="grid wide">
+            <nav class="header-nav">
+                <div>
+                    <h1><a href="../../home/home.html">FOODEATS</a></h1>
+                </div>
+
+                <div class="nav-menu list-appre">
+
+                    <ul>
+                        <li> <a href="../../pages/about/about.html">About</a></li>
+                        <li><a href="../../pages/restaurants/restaurants.html">Restaurants</a> </li>
+                        <li><a href="../../pages/blogs/blogs.html">Blog</a></li>
+                        <li><a href="../../pages/contact/contact.html">Contact</a></li>
+                        <li><a href="../../pages/faq/faq.html">FAQ</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="nav-author">
+
+                    <!-- <button class="btn-signin">Sign In</button> -->
+                    <button class="btn__buy">
+                        <img src="../../../assets/img/Buy.png" alt="">
+                    </button>
+
+                    <button class="button-primary">Sign Up</button>
+
+                    <i class="fa-solid fa-list active modal_menu"></i>
+
+                    <div class="list_menu active_menu ">
+                        <a href="../../pages/about/about.html"> About </a>
+                        <a href="../../pages/restaurants/restaurants.html"> Restaurants </a>
+                        <a href="../../pages/blogs/blogs.html"> Blog </a>
+                        <a href="../../pages/contact/contact.html"> Contact </a>
+                        <a href="../../pages/faq/faq.html"> FAQ </a>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__cart">
+                <div class="header__cart-wrap">
+                    <div class="header__cart-list">
+                        <div class="btn__close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                fill="none">
+                                <path d="M17 17L1 1M17 1L1 17" stroke="#191720" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+
+                        <h4 class="header__cart-heading">
+                            The Burger Cafe
+                        </h4>
+                        <ul class="header__cart-list-item">
+                            <li class="header__cart-item">
+                                <div class="header__cart-item-img-quantity">
+                                    <img class="header__cart-item-img"
+                                        src="https://cf.shopee.vn/file/10ad3c23d56f4a55180ed0ac590c0860_tn" alt="">
+                                    <div class="header__cart-item-quantity">
+                                        <p class="header__cart-item-quantity-decrease">
+                                            -
+                                        </p>
+                                        <p class="header__cart-item-quantity-counts">
+                                            2
+                                        </p>
+                                        <p class="header__cart-item-quantity-increase">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                                viewBox="0 0 12 12" fill="none">
+                                                <rect y="5.5" width="12" height="1" rx="0.5" fill="#575363" />
+                                                <rect x="5.5" y="12" width="12" height="1" rx="0.5"
+                                                    transform="rotate(-90 5.5 12)" fill="#575363" />
+                                            </svg>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="header__cart-item-info">
+                                    <div class="header__cart-item-head">
+                                        <h5 class="header__cart-item-name">
+                                            Eggs Benedict Burger
+                                        </h5>
+                                        <div class="header__cart-price-wrap">
+                                            <span class="header__cart-item-price">$15.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <div class="header__cart-footer">
+                            <div class="header__cart-view-cart">Go to Check Out $<p
+                                    class="header__cart-view-cart-total">30.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="img__restaurant">
+            <img src="../../../assets/img/restaurant photo.png" class="rounded photoRestaurant" alt="restaurant photo">
+            <img src="../../../assets/img/logoRestaurant.png" class="rounded-circle avatar__restaurant"
+                alt="Cinque Terre">
+        </div>
+        <div class="infor__restaurant">
+            <div class="left">
+                <div class="row__1">
+                    <div class="name__restaurant">The Burger Cafe</div>
+                </div>
+                <div class="row__2">
+                    <div class="info">
+                        <div class="info__row-1">
+                            <p>$0 delivery fee</p>
+                            <p>Time: <b>20 min</b></p>
+                            <p>Food Type: <b>Burger</b></p>
+                        </div>
+                        <div class="info__row-2">
+                            <span>
+                                <b>4.6</b>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    style="margin: 0 2px;" fill="none">
+                                    <path
+                                        d="M7.80979 0.585409C7.86966 0.401147 8.13034 0.401148 8.19021 0.58541L9.75121 5.38967C9.77798 5.47207 9.85478 5.52786 9.94142 5.52786H14.9929C15.1867 5.52786 15.2672 5.77579 15.1105 5.88967L11.0237 8.85886C10.9536 8.90979 10.9243 9.00006 10.9511 9.08247L12.5121 13.8867C12.5719 14.071 12.361 14.2242 12.2043 14.1103L8.11756 11.1411C8.04746 11.0902 7.95254 11.0902 7.88244 11.1411L3.7957 14.1103C3.63895 14.2242 3.42806 14.071 3.48793 13.8867L5.04893 9.08247C5.0757 9.00006 5.04637 8.90979 4.97627 8.85886L0.889527 5.88967C0.732784 5.77579 0.81334 5.52786 1.00708 5.52786H6.05858C6.14523 5.52786 6.22202 5.47207 6.24879 5.38967L7.80979 0.585409Z"
+                                        fill="#FFCF54" />
+                                </svg>
+                                <p>(2,200)</p>
+                            </span>
+                            <span>
+                                <p><b>94%</b> Food was good</p>
+                            </span>
+                            <span>
+                                <p><b>96%</b> Delivery on time</p>
+                            </span>
+                            <span>
+                                <p><b>90%</b> Order was correct</p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="store__info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M0 9.99927C0 4.48027 4.48 -0.000732422 10 -0.000732422C15.53 -0.000732422 20 4.48027 20 9.99927C20 15.5203 15.53 19.9993 10 19.9993C4.48 19.9993 0 15.5203 0 9.99927ZM9.12 6.20927C9.12 5.73027 9.52 5.32927 10 5.32927C10.48 5.32927 10.87 5.73027 10.87 6.20927V10.6293C10.87 11.1103 10.48 11.4993 10 11.4993C9.52 11.4993 9.12 11.1103 9.12 10.6293V6.20927ZM10.01 14.6803C9.52 14.6803 9.13 14.2803 9.13 13.8003C9.13 13.3203 9.52 12.9303 10 12.9303C10.49 12.9303 10.88 13.3203 10.88 13.8003C10.88 14.2803 10.49 14.6803 10.01 14.6803Z"
+                            fill="white" />
+                    </svg>
+                    <p>Store info</p>
+                </div>
+                <div class="add-to-favorites">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M13.85 0.500648C14.481 0.500648 15.111 0.589648 15.71 0.790648C19.401 1.99065 20.731 6.04065 19.62 9.58065C18.99 11.3896 17.96 13.0406 16.611 14.3896C14.68 16.2596 12.561 17.9196 10.28 19.3496L10.03 19.5006L9.77002 19.3396C7.48102 17.9196 5.35002 16.2596 3.40102 14.3796C2.06102 13.0306 1.03002 11.3896 0.390017 9.58065C-0.739983 6.04065 0.590017 1.99065 4.32102 0.769648C4.61102 0.669648 4.91002 0.599648 5.21002 0.560648H5.33002C5.61102 0.519648 5.89002 0.500648 6.17002 0.500648H6.28002C6.91002 0.519648 7.52002 0.629648 8.11102 0.830648H8.17002C8.21002 0.849648 8.24002 0.870648 8.26002 0.889648C8.48102 0.960648 8.69002 1.04065 8.89002 1.15065L9.27002 1.32065C9.36184 1.36962 9.4649 1.44445 9.55398 1.50912C9.61041 1.55009 9.66123 1.58699 9.70002 1.61065C9.71634 1.62028 9.73292 1.62996 9.74964 1.63972C9.83538 1.68977 9.9247 1.74191 10 1.79965C11.111 0.950648 12.46 0.490648 13.85 0.500648ZM16.51 7.70065C16.92 7.68965 17.27 7.36065 17.3 6.93965V6.82065C17.33 5.41965 16.481 4.15065 15.19 3.66065C14.78 3.51965 14.33 3.74065 14.18 4.16065C14.04 4.58065 14.26 5.04065 14.68 5.18965C15.321 5.42965 15.75 6.06065 15.75 6.75965V6.79065C15.731 7.01965 15.8 7.24065 15.94 7.41065C16.08 7.58065 16.29 7.67965 16.51 7.70065Z"
+                            fill="white" />
+                    </svg>
+                    <p>Add to favorites</p>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <ul class="menu">
+            <li class="menu__item">
+                <a href="#">Menu</a>
+            </li>
+            <li class="menu__item">
+                <a href="#">About</a>
+            </li>
+            <li class="menu__item">
+                <a href="#">Reviews</a>
+            </li>
+        </ul>
+        <div class="food-menu">
+            <div class="title">Food Menu</div>
+            <div class="mask-group">
+                <p class="mask-group__item">Popular Items</p>
+                <p class="mask-group__item">Cheeseburger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Chicken Burger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Whataburger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Fatburger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Smashburger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Chili Burger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Bbq Burger</p>
+                <p class="mask-group__item hide-on-mobile-tablet">Smokin’ Burger</p>
+                <div class="arrow__right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none">
+                        <g filter="url(#filter0_d_128_97)">
+                            <rect x="24" y="12" width="48" height="48" rx="4" fill="white" />
+                        </g>
+                        <path d="M44 28L52 36L44 44" stroke="#572AF8" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <defs>
+                            <filter id="filter0_d_128_97" x="0" y="0" width="96" height="96"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="12" />
+                                <feGaussianBlur stdDeviation="12" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.105882 0 0 0 0 0.0470588 0 0 0 0 0.329412 0 0 0 0.07 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_128_97" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_128_97"
+                                    result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="card__row-1">
+            <div class="title">Popular Items</div>
+            <div class="row sm-gutter mt-45">
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/The Burger Cafe.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Eggs Benedict Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Eggs Benedict Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger2.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Eggs Benedict Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger3.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Eggs Benedict Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="card__row-2">
+            <div class="title">Cheese Burger</div>
+            <div class="row sm-gutter mt-45">
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/The Burger Cafe.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Cheese Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Cheese Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger2.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Cheese Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger3.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Special Cheese Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="card__row-3">
+            <div class="title">Chicken Burger</div>
+            <div class="row sm-gutter mt-45">
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/The Burger Cafe.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger2.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="c-12 l-3 mb-12">
+                    <a href="../food/detail-food/detail-food.html">
+                        <div class="card">
+                            <img class="card-img-top" src="../../../assets/img/Eggs Benedict Burger3.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken Burger</h5>
+                                <p class="card-text">
+                                    Ground beef, hollandaise sauce mix, stone ground mustard, with a egg it’s so much
+                                    taste...
+                                </p>
+                                <div class="card__footer">
+                                    <p class="card-price">
+                                        $7.50
+                                    </p>
+                                    <a href="#" class="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"
+                                            fill="none">
+                                            <rect width="28" height="28" rx="4" fill="#572AF8" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.6968 13.3866H17.9111C18.2468 13.3866 18.5106 13.109 18.5106 12.7743C18.5106 12.4314 18.2468 12.162 17.9111 12.162H15.6968C15.3611 12.162 15.0973 12.4314 15.0973 12.7743C15.0973 13.109 15.3611 13.3866 15.6968 13.3866ZM20.5413 9.14199C21.0289 9.14199 21.3486 9.31344 21.6684 9.68899C21.9881 10.0645 22.0441 10.6034 21.9721 11.0924L21.2127 16.448C21.0689 17.4775 20.2055 18.236 19.1903 18.236H10.4691C9.40594 18.236 8.52662 17.404 8.43869 16.3264L7.70327 7.42672L6.49621 7.21446C6.17646 7.15731 5.95263 6.83891 6.00859 6.51235C6.06454 6.17844 6.3763 5.95719 6.70405 6.00699L8.61056 6.30008C8.88235 6.34988 9.08219 6.57766 9.10617 6.85524L9.25805 8.68399C9.28204 8.94606 9.48987 9.14199 9.74567 9.14199H20.5413ZM10.341 19.5264C9.66955 19.5264 9.12598 20.0815 9.12598 20.7673C9.12598 21.4449 9.66955 22.0001 10.341 22.0001C11.0045 22.0001 11.5481 21.4449 11.5481 20.7673C11.5481 20.0815 11.0045 19.5264 10.341 19.5264ZM19.334 19.5264C18.6625 19.5264 18.1189 20.0815 18.1189 20.7673C18.1189 21.4449 18.6625 22.0001 19.334 22.0001C19.9975 22.0001 20.5411 21.4449 20.5411 20.7673C20.5411 20.0815 19.9975 19.5264 19.334 19.5264Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="about-the-Burger-cafe">
+            <div class="title">
+                About The Burger Cafe
+            </div>
+            <div id="address-cafe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.195550967182!2d105.79625707438582!3d20.984796989288792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135acc6bdc7f95f%3A0x58ffc66343a45247!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgR2lhbyB0aMO0bmcgVuG6rW4gdOG6o2k!5e0!3m2!1svi!2s!4v1692801147709!5m2!1svi!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <div class="contact-method__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_133_352)">
+                                <path
+                                    d="M7.72961 1.15321C7.36867 0.28133 6.41711 -0.182732 5.50773 0.0657054L1.38273 1.19071C0.567106 1.41571 -8.01086e-05 2.15633 -8.01086e-05 3.00008C-8.01086e-05 14.597 9.40304 24.0001 20.9999 24.0001C21.8437 24.0001 22.5843 23.4329 22.8093 22.6173L23.9343 18.4923C24.1827 17.5829 23.7187 16.6313 22.8468 16.2704L18.3468 14.3954C17.5827 14.0766 16.6968 14.297 16.1765 14.9391L14.2827 17.2501C10.9827 15.6891 8.31086 13.0173 6.74992 9.71727L9.06086 7.82821C9.70304 7.30321 9.92336 6.42196 9.60461 5.65789L7.72961 1.15789V1.15321Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_133_352">
+                                    <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="contact__detail">
+                        <p class="contact__name">Phone</p>
+                        <div class="num">(000) 120 768 9988</div>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <div class="contact-method__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path
+                                d="M24 7.55147V18.175C24 20.0117 22.5158 21.5 20.6842 21.5H3.31579C2.43639 21.5 1.593 21.1497 0.971172 20.5261C0.349341 19.9026 0 19.0568 0 18.175V7.55147L11.6198 13.9608C11.8566 14.0913 12.144 14.0913 12.3802 13.9608L24 7.55083V7.55147ZM20.6842 2.5C21.5498 2.50008 22.381 2.83956 23.0003 3.44593C23.6196 4.0523 23.978 4.87748 23.9987 5.7452L12 12.3635L0.00126307 5.74457L0.00252643 5.68757C0.0378965 4.8302 0.402446 4.01974 1.01994 3.42567C1.63744 2.8316 2.46006 2.49992 3.31579 2.5H20.6842Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <div class="contact__detail">
+                        <p class="contact__name">Email</p>
+                        <div class="num">contact@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="review">
+            <div class="title">Customer Review</div>
+            <p class="number__reviews">2200 Reviews</p>
+            <span class="stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20" viewBox="0 0 128 20" fill="none">
+                    <path
+                        d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                        fill="#FFCF54" />
+                    <path
+                        d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                        fill="#FFCF54" />
+                    <path
+                        d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                        fill="#FFCF54" />
+                    <path
+                        d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                        fill="#FFCF54" />
+                    <path
+                        d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                        fill="#FFCF54" />
+                </svg>
+            </span>
+            <p class="goal_reviews">
+                <b>4.6</b> Overall Rating
+            </p>
+            <div class="separator"></div>
+            <div class="review__list">
+                <div class="row d-inline-flex">
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="c-12 l-4 mb-12">
+                        <div class="card">
+                            <blockquote>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="20"
+                                            viewBox="0 0 128 20" fill="none">
+                                            <path
+                                                d="M9.80979 0.58541C9.86966 0.401148 10.1303 0.401148 10.1902 0.58541L12.2002 6.77163C12.227 6.85404 12.3038 6.90983 12.3904 6.90983H18.895C19.0888 6.90983 19.1693 7.15775 19.0126 7.27163L13.7503 11.0949C13.6802 11.1459 13.6508 11.2361 13.6776 11.3185L15.6876 17.5048C15.7475 17.689 15.5366 17.8422 15.3799 17.7284L10.1176 13.9051C10.0475 13.8541 9.95254 13.8541 9.88244 13.9051L4.62013 17.7284C4.46338 17.8422 4.25249 17.689 4.31236 17.5048L6.32238 11.3185C6.34916 11.2361 6.31983 11.1459 6.24973 11.0949L0.987415 7.27163C0.830672 7.15775 0.911227 6.90983 1.10497 6.90983H7.60955C7.6962 6.90983 7.77299 6.85404 7.79976 6.77163L9.80979 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M36.8098 0.58541C36.8697 0.401148 37.1303 0.401148 37.1902 0.58541L39.2002 6.77163C39.227 6.85404 39.3038 6.90983 39.3904 6.90983H45.895C46.0888 6.90983 46.1693 7.15775 46.0126 7.27163L40.7503 11.0949C40.6802 11.1459 40.6508 11.2361 40.6776 11.3185L42.6876 17.5048C42.7475 17.689 42.5366 17.8422 42.3799 17.7284L37.1176 13.9051C37.0475 13.8541 36.9525 13.8541 36.8824 13.9051L31.6201 17.7284C31.4634 17.8422 31.2525 17.689 31.3124 17.5048L33.3224 11.3185C33.3492 11.2361 33.3198 11.1459 33.2497 11.0949L27.9874 7.27163C27.8307 7.15775 27.9112 6.90983 28.105 6.90983H34.6096C34.6962 6.90983 34.773 6.85404 34.7998 6.77163L36.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M63.8098 0.58541C63.8697 0.401148 64.1303 0.401148 64.1902 0.58541L66.2002 6.77163C66.227 6.85404 66.3038 6.90983 66.3904 6.90983H72.895C73.0888 6.90983 73.1693 7.15775 73.0126 7.27163L67.7503 11.0949C67.6802 11.1459 67.6508 11.2361 67.6776 11.3185L69.6876 17.5048C69.7475 17.689 69.5366 17.8422 69.3799 17.7284L64.1176 13.9051C64.0475 13.8541 63.9525 13.8541 63.8824 13.9051L58.6201 17.7284C58.4634 17.8422 58.2525 17.689 58.3124 17.5048L60.3224 11.3185C60.3492 11.2361 60.3198 11.1459 60.2497 11.0949L54.9874 7.27163C54.8307 7.15775 54.9112 6.90983 55.105 6.90983H61.6096C61.6962 6.90983 61.773 6.85404 61.7998 6.77163L63.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M90.8098 0.58541C90.8697 0.401148 91.1303 0.401148 91.1902 0.58541L93.2002 6.77163C93.227 6.85404 93.3038 6.90983 93.3904 6.90983H99.895C100.089 6.90983 100.169 7.15775 100.013 7.27163L94.7503 11.0949C94.6802 11.1459 94.6508 11.2361 94.6776 11.3185L96.6876 17.5048C96.7475 17.689 96.5366 17.8422 96.3799 17.7284L91.1176 13.9051C91.0475 13.8541 90.9525 13.8541 90.8824 13.9051L85.6201 17.7284C85.4634 17.8422 85.2525 17.689 85.3124 17.5048L87.3224 11.3185C87.3492 11.2361 87.3198 11.1459 87.2497 11.0949L81.9874 7.27163C81.8307 7.15775 81.9112 6.90983 82.105 6.90983H88.6096C88.6962 6.90983 88.773 6.85404 88.7998 6.77163L90.8098 0.58541Z"
+                                                fill="#FFCF54" />
+                                            <path
+                                                d="M117.81 0.58541C117.87 0.401148 118.13 0.401148 118.19 0.58541L120.2 6.77163C120.227 6.85404 120.304 6.90983 120.39 6.90983H126.895C127.089 6.90983 127.169 7.15775 127.013 7.27163L121.75 11.0949C121.68 11.1459 121.651 11.2361 121.678 11.3185L123.688 17.5048C123.748 17.689 123.537 17.8422 123.38 17.7284L118.118 13.9051C118.047 13.8541 117.953 13.8541 117.882 13.9051L112.62 17.7284C112.463 17.8422 112.252 17.689 112.312 17.5048L114.322 11.3185C114.349 11.2361 114.32 11.1459 114.25 11.0949L108.987 7.27163C108.831 7.15775 108.911 6.90983 109.105 6.90983H115.61C115.696 6.90983 115.773 6.85404 115.8 6.77163L117.81 0.58541Z"
+                                                fill="#FFCF54" />
+                                        </svg>
+                                    </h5>
+                                    <p class="card-text">
+                                        I’m obsessed with excellent customer service...thanks foodeats for being
+                                        awesome!
+                                    </p>
+                                    <cite>
+                                        <p class="user__name">Peter Moor</p>
+                                        <p class="job">UI/UX Designer</p>
+                                    </cite>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="btn__group">
+                <button class="btn-view-all">View All Reviews</button>
+            </span>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="../../../common/header/header.js"></script>
+    <script>
+        const modalMenu = document.querySelector('.modal_menu');
+        const listMenu = document.querySelector('.list_menu');
+        const container = document.querySelector('.container')
+        const footer = document.querySelector('.footer');
+
+        modalMenu.addEventListener('click', (e) => {
+            listMenu.classList.toggle('active_menu');
+            e.stopPropagation();
+        })
+
+        document.addEventListener('click', (e) => {
+            const clickElement = e.target;
+
+            if (!listMenu.contains(clickElement)) {
+                listMenu.classList.add('active_menu');
+            }
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="./detail-res.js" type="module"></script>
+</body>
+
+</html>

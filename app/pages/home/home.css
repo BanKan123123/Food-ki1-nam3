@@ -26,6 +26,7 @@
 
 .texts {
     margin-bottom: 40px;
+    width: 50%;
 }
 
 .texts h2 {
@@ -101,11 +102,12 @@
 
 .image {
     position: relative;
+    width: 50%;
 }
 
 .image .rectnagle2 {
     border-radius: 10px;
-    width: 450px;
+    width: 100%;
     height: 500px;
     flex-shrink: 0;
     background: linear-gradient(181deg, #FFCF54 0%, #FFB700 98.96%);
@@ -116,7 +118,7 @@
 
 .image img {
     position: absolute;
-    width: 600px;
+    width: 100%;
     height: 450px;
     flex-shrink: 0;
     top: 10%;
@@ -184,7 +186,7 @@
 
 .service .card {
     text-align: center;
-    width: 370px;
+    width: 30%;
     padding: 30px;
     border: none;
     border-radius: 10px;
@@ -202,7 +204,7 @@
 }
 
 .service .card p {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     padding: 15px 0;
 }
@@ -253,7 +255,7 @@
 
 .about-foodeats {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 100px 0;
     gap: 40px;
@@ -261,8 +263,8 @@
 }
 
 .ill {
-    width: 460px;
-    height: 500px;
+    width: 50%;
+    height: 800px;
     flex-shrink: 0;
     border-radius: 12px;
     background: linear-gradient(181deg, #FFCF54 0%, #FFB700 98.96%);
@@ -274,7 +276,7 @@
 
 .ill .rectangle1-1 {
     position: absolute;
-    width: 80%;
+    width: 90%;
     flex-shrink: 0;
     top: 20%;
     left: 0;
@@ -297,6 +299,8 @@
     color: #191720;
     font-style: normal;
     font-weight: 800;
+    font-size: 55px;
+    letter-spacing: 5px;
 }
 
 .ill .title2 {
@@ -307,6 +311,8 @@
     position: absolute;
     right: 5%;
     bottom: 5%;
+    font-size: 55px;
+    letter-spacing: 5px;
 }
 
 .content {
@@ -316,18 +322,21 @@
 .content h1 {
     font-weight: 800;
     padding: 15px 0;
+    font-size: 70px;
 }
 
 .content p {
     padding: 5px 0;
-    width: 80%;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .content button {
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .features {
@@ -342,6 +351,7 @@
 
 .features p {
     padding: 15px 0;
+    font-size: 20px;
 }
 
 .features-base {
@@ -355,8 +365,10 @@
 
 .features-base .card-features {
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.11);
-    padding: 20px;
+    padding: 50px;
     border-radius: 20px;
+    width: 45%;
+    height: 100%;
 }
 
 .features-base .card-features button {
@@ -368,8 +380,7 @@
 }
 
 .features-base .card-features img {
-    width: 250px;
-    height: 150px;
+    width: 45%;
 }
 
 .features-base .card-features:hover button {
@@ -399,7 +410,8 @@
 }
 
 .card-testimation {
-    padding: 20px;
+    width: 30%;
+    padding: 30px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -413,28 +425,42 @@
 }
 
 .card-testimation p {
-    width: 300px;
     position: relative;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .card-testimation p::after {
     position: absolute;
     content: "";
     display: block;
-    width: 300px;
+    width: 100%;
     height: 1px;
     bottom: 0;
     background-color: #cccc;
 }
 
 .card-testimation h1 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .card-rating i {
     font-size: 13px;
     color: #FFB700;
+}
+
+@media (max-width: 1800px) {
+    .ill {
+        height: 600px;
+    }
+
+    .content h1 {
+        font-size: 48px;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -444,12 +470,12 @@
 
     .texts h1 {
         font-size: 35px;
-        width: 400px;
+        width: 80%;
     }
 
     .texts p {
         font-size: 20px;
-        width: 400px;
+        width: 80%;
     }
 
     .texts button {
@@ -464,51 +490,55 @@
     }
 
     .ill {
-        width: 400px;
         height: 460px;
     }
 
-    .card-features {
-        width: 400px;
+    .service .card {
+        width: 48%;
     }
 
-    .card-features h1 {
-        font-size: 30px;
+    .card-testimation {
+        width: 45%;
     }
-
-    .card-features p {
-        font-size: 15px;
-    }
-
 }
 
 @media (max-width: 960px) {
+    .texts {
+        width: 100%;
+    }
+
     .texts h2 {
         font-size: 30px;
     }
 
     .texts h1 {
         font-size: 50px;
-        width: 100%;
     }
 
     .texts p {
         font-size: 35px;
-        width: 80%;
     }
 
     .image {
-        width: 60%;
+        width: 100%;
     }
 
     .image .rectnagle2 {
-        width: 550px;
+        width: 100%;
         height: 650px;
     }
 
     .ill {
-        width: 500px;
+        width: 100%;
         height: 650px;
+    }
+
+    .ill .rectangle1-1 {
+        width: 80%;
+    }
+
+    .service .card {
+        width: 80%;
     }
 
     .content {
@@ -518,57 +548,23 @@
     .features-base {
         justify-content: space-around;
     }
+
+    .features-base .card-features {
+        width: 100%;
+    }
+
+    .card-testimation {
+        width: 80%;
+    }
 }
 
 @media (max-width: 540px) {
-    .texts h2 {
-        font-size: 20px;
-    }
-
-    .texts h1 {
-        font-size: 40px;
-        width: 100%;
-    }
-
-    .texts p {
-        font-size: 25px;
-        width: 80%;
-    }
-
-    .image {
-        width: 60%;
-    }
-
-    .image .rectnagle2 {
-        width: 450px;
-        height: 450px;
-    }
-
-    .image img {
-        width: 400px;
-        height: 400px;
-        left: -10px;
-    }
-
-    .image .image-title1 {
-        font-size: 30px;
-    }
-
-    .image .image-title2 {
-        font-size: 30px;
-    }
-
-    .image .image-star {
-        width: 200px;
-        height: 200px;
-    }
 
     .ill {
-        width: 100%;
         height: 400px;
     }
 
-    .content {
-        width: 100%;
+    .ill .rectangle1-2 {
+        width: 30%;
     }
 }

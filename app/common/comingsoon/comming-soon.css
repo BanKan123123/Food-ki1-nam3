@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    max-width: 1170px;
+    width: calc(100vw - 48px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 160px;
+}
+
+.coming-soon {
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img__comingsoon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc {
+    margin-top: 38px;
+    color: var(--Grey, #575363);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.info-platforms {
+    text-align: center;
+}
+
+.fa-brands {
+    cursor: pointer;
+}

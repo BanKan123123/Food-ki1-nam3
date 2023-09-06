@@ -30,7 +30,7 @@
         margin-right: unset;
     }
 
-    .modal {
+    .modal_js {
         border: 1px solid var(--dark);
         position: absolute;
         top: 46px;
@@ -70,7 +70,8 @@
         margin-top: 15px;
     }
 
-    .delivery, .pickup {
+    .delivery,
+    .pickup {
         width: 135px;
         flex: unset;
     }
@@ -81,13 +82,25 @@
         margin-bottom: 20px;
     }
 
-    .wrapper-modal {
-        background-color: rgba(0, 0, 0, 0.4);
+    .wrapper__modal--mobile {
+        background-color: rgba(0, 0, 0, 0.3);
         position: fixed;
         top: 0;
-        left: 0;
         right: 0;
+        left: 0;
         bottom: 0;
+    }
+
+    .modal_js--mobile {
+        border: 1px solid var(--dark);
+        position: absolute;
+        top: 53px;
+        right: 9px;
+        width: 169px;
+        border-radius: 6px;
+        transition: all 0.5s ease-in;
+        z-index: 100;
+        background-color: var(--white);
     }
 }
 
@@ -133,5 +146,5 @@
     .wrapper {
         margin: 10px;
     }
-    
+
 }

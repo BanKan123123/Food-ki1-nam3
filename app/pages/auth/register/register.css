@@ -14,7 +14,6 @@ body {
 img {
     width: 30px;
     height: 30px;
-
 }
 
 .signup-container h2 {
@@ -22,7 +21,6 @@ img {
 }
 
 .social-login button {
-
 
     display: flex;
     align-items: center;
@@ -36,7 +34,6 @@ img {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-
 }
 
 .social-login button:hover {
@@ -46,31 +43,43 @@ img {
 
 .or-divider {
     margin: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.or-divider {
+    margin: 10px 0;
     font-weight: bold;
 }
 
 .email-signup {
     height: 42vh;
     width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+
     margin-top: 10px;
 }
 
 .email-signup label {
     height: 10vh;
+}
+
+.email-signup label {
     display: inline-block;
     width: 100px;
     text-align: right;
     margin-right: 15px;
 }
 
-
-
 .email-signup input {
-    width: 93,5%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -78,7 +87,6 @@ img {
 }
 
 button[type="submit"] {
-   
     background-color: rgba(87, 42, 248, 1);
     color: #fff;
     font-size: 22px;
@@ -88,11 +96,19 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: rgba(88, 42, 248, 1);
+    background-color: #28a745;
+    color: #fff;
+    font-size: 22px;
+}
+
+button[type="submit"]:hover {
+    background-color: #1a682c;
 }
 
 .have-account {
     margin-top: 20px;
     font-size: 16px;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -100,7 +116,6 @@ button[type="submit"]:hover {
     color: #007bff;
     text-decoration: none;
 }
-
 
 .signup-container {
     border: 1px solid #ccc;
@@ -121,4 +136,15 @@ button[type="submit"]:hover {
 }
 .content{
     margin-bottom: 30px;
+}
+.signup-container {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px; 
+    height: auto;
+    margin: 0 auto;
+    font-size: 16px;
 }

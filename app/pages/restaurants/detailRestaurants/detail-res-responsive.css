@@ -1,0 +1,132 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* Mobile & tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .container {
+        margin-left: unset;
+        padding: 0 18px;
+    }
+
+    .img__restaurant {
+        margin-bottom: 44px;
+    }
+
+    .mask-group:nth-child(2) {
+        margin-right: 42px;
+    }
+
+    .avatar__restaurant {
+        width: 64px;
+        height: 64px;
+    }
+
+    .avatar__restaurant {
+        position: absolute;
+        top: 76%;
+        left: 40%;
+    }
+
+    .infor__restaurant {
+        display: block;
+    }
+
+    .info__row-1,
+    .info__row-2 {
+        display: block;
+    }
+
+    .info__row-1 p,
+    .info__row-2 span {
+        border-left: unset;
+        padding: unset;
+    }
+
+    .info__row-2 span {
+        margin-bottom: 6px;
+    }
+
+    .info__row-2:last-child {
+        margin-bottom: 18px;
+    }
+
+    .store__info {
+        margin-bottom: 12px;
+    }
+
+    .menu {
+        padding-left: unset;
+        margin-bottom: 31px;
+    }
+
+    .menu__item:first-child {
+        margin-left: unset;
+    }
+
+    .mask-group {
+        overflow: hidden;
+    }
+
+    .mask-group__item {
+        font-size: 16px;
+    }
+
+
+    .card {
+        margin: 0 12px;
+    }
+
+    .card__footer a rect {
+        fill: var(--purple-primary);
+        transition: all .5s ease;
+    }
+
+    #address-cafe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .contact-info {
+        display: block;
+    }
+    
+    .contact-method {
+        justify-content: unset;
+    }
+
+    .contact-method:last-child {
+        margin-top: 14px;
+    }
+
+    .contact-method:last-child .contact-method__icon {
+        margin-left: unset;
+    }
+    
+    .row>* {
+        padding: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
