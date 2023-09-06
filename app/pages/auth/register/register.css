@@ -1,3 +1,7 @@
+@import url("../../common/styles/reset.css");
+@import url("../../common/styles/grid.css");
+@import url("../../common/styles/base.css");
+@import url("../../common/styles/variables.css");
 body {
     margin: 0;
     display: flex;
@@ -6,15 +10,39 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
 }
-img{
-    width: 30px;height: 30px;
-   
+
+img {
+    width: 30px;
+    height: 30px;
 }
+
 .signup-container h2 {
     margin-bottom: 20px;
 }
 
 .social-login button {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: rgba(0, 0, 0, 0.822);
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-login button:hover {
+    background-color: white;
+
+}
+
+.or-divider {
+    margin: 10px;
     display: block;
     width: 100%;
     height: auto;
@@ -27,22 +55,20 @@ img{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-/* .social-login button:hover {
-    /* background-color: hsl(211, 66%, 58%); */
-    /* color: #fff; */
-
-
 .or-divider {
     margin: 10px 0;
     font-weight: bold;
 }
 
 .email-signup {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+    height: 42vh;
+    width: 100%;
+
+    margin-top: 10px;
+}
+
+.email-signup label {
+    height: 10vh;
 }
 
 .email-signup label {
@@ -61,6 +87,15 @@ img{
 }
 
 button[type="submit"] {
+    background-color: rgba(87, 42, 248, 1);
+    color: #fff;
+    font-size: 22px;
+    border: #007bff;
+    height: 15vh;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(88, 42, 248, 1);
     background-color: #28a745;
     color: #fff;
     font-size: 22px;
@@ -72,6 +107,7 @@ button[type="submit"]:hover {
 
 .have-account {
     margin-top: 20px;
+    font-size: 16px;
     font-size: 14px;
     text-align: center;
 }
@@ -79,6 +115,27 @@ button[type="submit"]:hover {
 .have-account a {
     color: #007bff;
     text-decoration: none;
+}
+
+.signup-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.062);
+    text-align: center;
+    width: 330px;
+    height: 90vh;
+    margin: 0 auto;
+
+    font-size: 16px;
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 60px;
+}
+.content{
+    margin-bottom: 30px;
 }
 .signup-container {
     border: 1px solid #ccc;
@@ -88,7 +145,6 @@ button[type="submit"]:hover {
     text-align: center;
     width: 350px; 
     height: auto;
-    margin: 0 auto; /* Để căn giữa trang */
+    margin: 0 auto;
     font-size: 16px;
 }
-    
