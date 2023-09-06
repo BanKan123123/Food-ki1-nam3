@@ -1,83 +1,7 @@
-
-@import url("../../common/styles/reset.css");
-@import url("../../common/styles/grid.css");
-@import url("../../common/styles/base.css");
-@import url("../../common/styles/variables.css");
- body {
-     margin: 0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 100vh;
-     background-color: #f0f0f0;
- }
- 
- .login-container {
-     border: 1px solid rgba(0, 0, 0, 0.281);
-    
-     background-color: #fff;
-     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-     text-align: center;
-     width: 350px;
-     height: 90vh;
-     margin: 0 auto;
-     font-size: 16px;
-     padding :20px;
- }
- 
- /* .login-container h2 {
-     margin-bottom: 20px;
- }
-  */
-
- .separator {
-     margin: 10px 0;
-     font-weight: bold;
-     text-align: center;
- }
- 
-
- .email-login-form {
-    margin-top: 20px;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-
-}
- 
- input {
-     width: 93,5%;
-     padding: 10px;
-     margin-bottom: 10px;
-     border: 1px solid #ccc;
-     border-radius: 5px;  
-     cursor: pointer;
-     transition: background-color 0.3s ease;
- }
- input :hover{
-   outline:  none;
- }
- button[type="submit"] {
-     background-color: rgba(87, 42, 248, 1);
-    
- }
- 
- button[type="submit"]:hover {
-     background-color:  rgba(87, 42, 248, 10);
- }
-
-
-.forgot-password {
-    text-align: right;
-}
-
-
-.social-button {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    
-    width: 100%;
+@import url("../../../common/styles/reset.css");
+@import url("../../../common/styles/grid.css");
+@import url("../../../common/styles/base.css");
+@import url("../../../common/styles/variables.css");
 
 body {
     margin: 0;
@@ -89,28 +13,78 @@ body {
 }
 
 .login-container {
-    border: 1px solid black;
-    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+
     background-color: #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 350px;
+    height: 90vh;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 20px;
 }
 
-.login-container h2 {
-    margin-bottom: 20px;
+/* .login-container h2 {
+     margin-bottom: 20px;
+ }
+  */
+
+.separator {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
 }
 
-button {
-    display: block;
+
+.email-login-form {
+    margin-top: 20px;
+    display: flex;
     width: 100%;
-    height: auto;
+    flex-direction: column;
+
+}
+
+input {
+    width: 93, 5%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input :hover {
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: rgba(87, 42, 248, 1);
+
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(87, 42, 248, 10);
+}
+
+
+.forgot-password {
+    text-align: right;
+}
+
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     background-color: white;
     color: black;
     border: 0.5px solid rgba(0, 0, 0, 0.247);
-    border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -121,6 +95,7 @@ button {
     height: 20px;
     margin-right: 70px;
 }
+
 .login-button {
     background-color: #28a745;
     width: 100%;
@@ -129,23 +104,6 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
-
-.separator {
-    margin: 10px 0;
-    font-weight: bold;
-    text-align: center;
-}
-
-.email-login {
-    margin-top: 20px;
-}
-
-input {
-    width: 95%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;  
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -155,10 +113,10 @@ input {
 }
 
 
-.signup{
+.signup {
     padding: 10px;
 }
-.content{
+
+.content {
     margin-bottom: 40px;
 }
-
