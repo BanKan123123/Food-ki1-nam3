@@ -1,0 +1,168 @@
+@import url("../../common/styles/reset.css");
+@import url("../../common/styles/grid.css");
+@import url("../../common/styles/base.css");
+@import url("../../common/styles/variables.css");
+
+.container {
+    margin-top: 108px;
+    padding: 100px 0;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-content {
+    width: 45%;
+}
+
+.blog-content p {
+    color: #575363;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.blog-content h1 {
+    color: #191720;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.blog-content .avatar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.blog-content .avatar p {
+    margin: 0;
+}
+
+.blog-ill img {
+    width: 470px;
+    border-radius: 12px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.search-buttons button {
+    padding: 0 15px;
+    height: 40px;
+    background-color: transparent;
+    color: #191720;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-input input {
+    width: 300px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #cccc;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.11);
+    outline: none;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-input i {
+    position: absolute;
+    left: 8px;
+    top: 14px;
+    color: #cccc;
+    font-size: 14px;
+}
+
+.search-bar button {
+    padding: 0 15px;
+    height: 40px;
+}
+
+.blogs {
+    width: 100%;
+}
+
+.card-blog {
+    padding: 10px;
+}
+
+.card-blog h5 {
+    color: #191720;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.card-blog p {
+    color: var(--grey, #575363);
+    font-size: 15px;
+    font-style: normal;
+}
+
+.card-blog-footer img {
+    border-radius: 50%;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.card-blog-footer span {
+    font-weight: 800;
+    color: #191720
+}
+
+.col:hover h5 {
+    color: var(--purple-primary);
+}
+
+@media (max-width: 1000px) {
+
+    .blog {
+        justify-content: space-around;
+    }
+
+
+    .blog-content {
+        width: 100%;
+    }
+
+    .blog-ill img {
+        width: 100%;
+        border-radius: 12px;
+    }
+}
+
+@media (max-width: 448px) {
+    .search-bar {
+        width: 100%;
+    }
+
+    .search-input input {
+        width: 100%;
+    }
+}
