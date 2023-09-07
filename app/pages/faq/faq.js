@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
     var faqItems = document.querySelectorAll(".faq__item");
 
+
+
     faqItems.forEach(function (item) {
         var showButton = item.querySelector(".btn__faq-show");
         var hiddenButton = item.querySelector(".btn__faq-hidden");
         var contentParagraph = item.querySelector(".show__para");
+
+        hiddenButton.style.display = "none";
+        contentParagraph.style.display = "none";
 
         showButton.addEventListener("click", function () {
             contentParagraph.style.display = "block";
@@ -22,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // import { includeHTMLFile } from '../../../app.js';
 
-export default function includeHTMLFile(url, elementId) {
+function includeHTMLFile(url, elementId) {
     fetch(url)
         .then((res) => res.text())
         .then((htmlContent) => {
